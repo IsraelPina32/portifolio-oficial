@@ -36,13 +36,13 @@
 .navegacao-principal .menu-fixo .navegacao-container .nave-intens a {
   margin-left: 45px;
   font-size: 18pt;
+  padding: 1rem;
 }
 .navegacao-principal .menu-fixo .navegacao-container .nave-intens a:hover {
   background-color: white;
   color: black;
   cursor: pointer;
   font-weight: bold;
-  padding: 1rem;
   border-radius: 200rem;
   transition: 0.3s all ease-in-out;
 }
@@ -348,7 +348,7 @@
   transition: 1s ease-in-out;
 }
 .projetos .projetos-container .projetos-img3 {
-  background-image: url(../../imgs/);
+  background-image: url(./../imgs/Animação-git-hub.gif);
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
