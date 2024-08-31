@@ -53,6 +53,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   background-repeat: no-repeat;
   background-position: center;
