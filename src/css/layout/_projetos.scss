@@ -19,7 +19,7 @@ $layout-name: "projetos";
     width: 80%;
 
     .projetos-img1 {
-      background-image: url(../imgs/lading-page-advogado-thiago);
+      background-image: url(../imgs/lading-page-advogado-thiago.gif);
       background-repeat: no-repeat;
       background-size: 100%;
       background-position: center;
@@ -99,13 +99,16 @@ $layout-name: "projetos";
         border-radius: 200rem;
 
         &:hover {
-          background-color: black;
           color: white;
         }
       }
-      .projetos .projetos-container .projetos-card h3 {
-        padding: 1rem;
+       h3 {
         font-size: 1rem;
+        padding: 1rem;
+      }
+      span {
+        font-weight: 600;
+       
       }
     }
   }
