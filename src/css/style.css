@@ -325,7 +325,7 @@
   width: 80%;
 }
 .projetos .projetos-container .projetos-img1 {
-  background-image: url(./../imgs/Animação-portifolio.gi);
+  background-image: url(./../imgs/lading-page-advogado-thiago.gif);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -341,7 +341,7 @@
   transition: 1s ease-in-out;
 }
 .projetos .projetos-container .projetos-img2 {
-  background-image: url(../../imgs/lading-page-gta-v.gif);
+  background-image: url(../../src/imgs/otica-lading-page.gif);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -356,7 +356,7 @@
   transition: 1s ease-in-out;
 }
 .projetos .projetos-container .projetos-img3 {
-  background-image: url(../../imgs/);
+  background-image: url(../../src/imgs/Animação-git-hub.gif);
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
