@@ -1,4 +1,5 @@
 @import 'variaveis/variaveis';
+@import 'layout/menu';
 @import "layout/header";
 @import "layout/home";
 @import "layout/sobre";
@@ -71,5 +72,3 @@ a{
         transform: translate(0px, 0px);
      }
 }
-
-// ===== MEDIA QUERY =====

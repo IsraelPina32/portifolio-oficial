@@ -2,7 +2,6 @@
     display: flex;
 }
 
-
 .navegacao-principal .navegacao-container  .menu {
     display: none;
     width: 60px;
@@ -65,7 +64,6 @@
 }
 
 @media (max-width: 900px){
-       
         .navegacao-principal .menu-fixo  .navegacao-container .nave-intens {
             display: none;
         }
