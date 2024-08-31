@@ -14,7 +14,6 @@
     flex-direction: column;
 }
 
-
 .navegacao-principal .hambuguer {
     display: block;
     position: relative;
@@ -68,7 +67,7 @@
             display: none;
         }
          .navegacao-principal .navegacao-container .menu {
-            display: block;
+            display: flex;
         }
 
         .navegacao-principal .navegacao-container input:checked ~ ul.nave-intens {
