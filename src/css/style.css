@@ -180,19 +180,13 @@
   font-size: 2.5rem;
 }
 .habilidades-sessao .conhecimentos .conhecimento .conhecimento-header h3 {
-  font-family: var(--font-secundary);
   font-size: 2rem;
   padding-left: 1rem;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  margin-top: 0.5rem;
-  color: #363636;
-}
-.habilidades-sessao .conhecimentos .conhecimento .conhecimento-text {
-  margin-top: 0.4rem;
-  color: #363636;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  color: #363636;
+  font-weight: 500;
 }
+
 .habilidades-sessao .conhecimentos .conhecimento:nth-child(1) {
   grid-column: 4/7;
   grid-row: 1/3;
