@@ -57,7 +57,7 @@
   flex-direction: column;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: white;
+  padding: 1rem;
 }
 .home-container {
   height: 5vh;
