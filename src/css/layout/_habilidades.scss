@@ -11,6 +11,7 @@
         grid-template-columns: repeat(16,1fr);
         grid-template-rows: repeat(6,6rem);
         row-gap: 0.5rem;
+        padding: 1rem;
 
     .conhecimento{
         .conhecimento-header{
@@ -90,9 +91,6 @@
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-header h3{
           font-size: 1.3rem;
 }
-    .habilidades-sessao .conhecimentos .conhecimento .conhecimento-header i{
-          font-size: 1.8rem;
-}
 
 .habilidades-sessao .conhecimentos .conhecimento:nth-child(1){
     grid-column: 3/7;
@@ -119,8 +117,6 @@
     grid-row: 5/-1;
 }
 
-
-
 .habilidades-sessao .conhecimentos .conhecimentos-img{
     height: 60%;
     width: 60%;
@@ -129,13 +125,13 @@
 }
 
 @media (max-width: 850px){
-
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-header h3{
-        font-size: 1.0rem;
         display: flex;
+        font-size: 0.8rem;
+        font-weight: 600;
 }
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
-            font-size: 0.9rem;
+        font-size: 0.9rem;
     }
 
     .habilidades-sessao .conhecimentos .conhecimentos-img{
@@ -158,7 +154,7 @@
 @media (max-width: 463px) {
 
     .habilidades-sessao .conhecimentos .conhecimento:nth-child(6) {
-        grid-template-columns: 10/15;
+        grid-column: 9/15;
     }
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
         font-size: 0.6rem;   
