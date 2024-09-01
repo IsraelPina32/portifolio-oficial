@@ -411,12 +411,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 80%;
+  width: 100%;
 }
 .projetos .projetos-container .projetos-img1 {
   background-image: url(../imgs/lading-page-advogado-thiago.gif);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 80%;
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
@@ -480,12 +480,11 @@
 .projetos .projetos-container .projetos-card .projetos-card-btn {
   width: 100px;
   padding: 0.6rem;
-  background-color: white;
   cursor: pointer;
   background: none;
   border: #edf2f4 1.5px solid;
   color: #edf2f4;
-  transition: 0.5s;
+  transition: 0.2s all ease-in-out;
   border-radius: 200rem;
 }
 .projetos .projetos-container .projetos-card .projetos-card-btn:hover {
@@ -497,6 +496,7 @@
 }
 .projetos .projetos-container .projetos-card span {
   font-weight: 600;
+  color: #edf2f4;
 }
 
 .contato {
