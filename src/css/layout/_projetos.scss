@@ -16,12 +16,12 @@ $layout-name: "projetos";
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
 
     .projetos-img1 {
       background-image: url(../imgs/lading-page-advogado-thiago.gif);
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: 90%;
       background-position: center;
       object-fit: cover;
       filter: grayscale(100%);
@@ -89,12 +89,11 @@ $layout-name: "projetos";
       .projetos-card-btn {
         width: 100px;
         padding: 0.6rem;
-        background-color: white;
         cursor: pointer;
         background: none;
         border: #edf2f4 1.5px solid;
         color:  #edf2f4;
-        transition: 0.5s;
+        transition: 0.2s all ease-in-out;
         border-radius: 200rem;
 
         &:hover {
@@ -107,7 +106,7 @@ $layout-name: "projetos";
       }
       span {
         font-weight: 600;
-       
+        color: #edf2f4;
       }
     }
   }
